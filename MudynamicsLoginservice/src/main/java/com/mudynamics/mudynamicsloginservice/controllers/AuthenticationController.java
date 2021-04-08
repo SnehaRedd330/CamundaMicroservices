@@ -2,6 +2,7 @@ package com.mudynamics.mudynamicsloginservice.controllers;
 
 import javax.validation.Valid;
 
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,6 +19,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
+@RefreshScope
 @Api(value = "AuthenticationController", tags="")
 @RequestMapping(value="/mudynamics/api/auth",produces="application/json")
 public interface AuthenticationController {
