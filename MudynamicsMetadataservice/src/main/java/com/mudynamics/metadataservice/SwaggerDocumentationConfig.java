@@ -24,7 +24,7 @@ public class SwaggerDocumentationConfig {
 	            .licenseUrl("http://www.techmahindra.com/licenses/LICENSE-1.0.html")
 	            .termsOfServiceUrl("https://techmahindra.com")
 	            .version("1.0.0")
-	            .contact(new Contact("Shesharao Joshi","", "SJ00495527@techmahindra.com"))
+	            .contact(new Contact("Sneha P","", "SP00557779@techmahindra.com"))
 	            .build();
 	    }
 	 
